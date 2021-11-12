@@ -45,9 +45,7 @@ Standardize the look of each blog post with configurable metadata. Checkout a po
 
 ---
 
-## Setup Instructions
-
-[Here](/blog/2021/how_to_build_this_blog).
+## [Setup Instructions](/blog/2021/how_to_build_this_blog)
 
 ---
 

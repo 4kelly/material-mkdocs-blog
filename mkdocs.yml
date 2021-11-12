@@ -1,6 +1,9 @@
 site_name: Ryan Kelly
 site_description: Writes software and is concerned about technology privacy.
-copyright: Copyright &copy; 2015 - 2021 Ryan Kelly
+copyright: Copyright &copy; 2021 <Name>
+
+repo_url: https://github.com/4kelly/material-mkdocs-blog
+edit_uri: edit/main/docs/
 
 extra_css:
   - stylesheets/extra.css
@@ -18,6 +21,8 @@ nav:
 theme:
   custom_dir: overrides
   name: material
+  icon:
+    repo: fontawesome/brands/git-alt
   features:
     - navigation.instant
     - navigation.indexes
