@@ -59,7 +59,7 @@ All the pages under `/blog` are `blog_post.html` templates!
 
     ```shell
     # Install Poetry
-    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
     # Install Dependencies
     poetry shell
     poetry install
