@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "web"
+name = "material-mkdocs-blog"
 version = "0.1.0"
 description = ""
 authors = ["Ryan <user@4kelly.com>"]
