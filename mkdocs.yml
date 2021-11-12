@@ -1,0 +1,67 @@
+site_name: Ryan Kelly
+site_description: Writes software and is concerned about technology privacy.
+copyright: Copyright &copy; 2015 - 2021 Ryan Kelly
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
+      - 2021:
+          - blog/2021/how_to_build_this_blog.md
+      - Subtopic:
+          - blog/subtopic/boring_post.md
+          - blog/subtopic/interesting_post.md
+
+theme:
+  custom_dir: overrides
+  name: material
+  features:
+    - navigation.instant
+    - navigation.indexes
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/4kelly
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/4kelly_
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@4kelly
+    - icon: material/email
+      link: mailto:web@4kelly.com
+  blog:
+    dir: blog
+    author: Ryan Kelly
+    author_image: https://avatars.githubusercontent.com/u/93479011
+    words_read_per_minute: 300
+    list_length: 25
+    extended_preview: true
+
+markdown_extensions:
+  - toc:
+      title: On this page
+      permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - meta
+  - def_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+

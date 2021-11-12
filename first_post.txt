@@ -1,0 +1,13 @@
+---
+template: blog.html
+title: My First Blog Post
+author: <your name>
+description: A very interesting description.
+date: 2021-12-10
+---
+
+Do you know what Disney princess you are?
+
+<p hidden></p>
+
+Princess Leia.
