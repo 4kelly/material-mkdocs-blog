@@ -11,7 +11,7 @@ How to use [Material MkDocs](https://squidfunk.github.io/mkdocs-material/) stati
 
 Credit for the inspiration and styling should be attributed to the author of [Material MkDocs](https://squidfunk.github.io/mkdocs-material/) 
 `@squidfunk` [:fontawesome-brands-twitter: Twitter](https://twitter.com/squidfunk), 
-I just packaged it up into something re-usable.
+I just packaged it up into something easier to use.
 
 !!! info "Note"
 
