@@ -8,43 +8,7 @@ description: >
 date: 2021-10-03
 ---
 
-!!! info "Note"
-
-    - This template is designed to be used with Material MkDocs.
-
-    - These instructions assume some familiarity with [MkDocs](https://www.mkdocs.org) & 
-    [Material MkDocs](https://squidfunk.github.io/mkdocs-material/).
-
-    - There are other blog plugins for MkDocs probably more useful than this.
-    
-        - [Mkdocs Blogging Plugin](https://pypi.org/project/mkdocs-blogging-plugin/)
-        - [Mkdocs Blog Plugin](https://pypi.org/project/mkdocs-blog-plugin/)
-        - [Mkdocs RSS Plugin](https://pypi.org/project/mkdocs-rss-plugin/)
-
-
-## Features
-
-#### Blog Signature
-
-Annotate your posts with a beautiful signature!
-
-![Blogging Signature](/img/signature.png){ lazy=true }
-
-#### Blog List Template
-
-The `Home` page is an example of the `blog_list.html` template! 
-
-- So is [this page](/blog).
-
-#### Blog Post Template
-
-All the pages under `/blog` are `blog_post.html` templates!
-
-- See [example](/blog/subtopic/interesting_post) post.
-
-## Initial Setup
-
-<p hidden>#more</p>
+## Setup
 
 ### Starting From Scratch
 
@@ -105,6 +69,8 @@ All the pages under `/blog` are `blog_post.html` templates!
     Browser connected: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ### Adding A Blog To An Existing Site
+
+<p hidden>#more</p>
 
 1. Copy + Paste the directory `/overrides` into your site.
 2. Copy + Paste the directory `/docs/stylesheets` into your site.
@@ -173,13 +139,13 @@ blog:
 
 The signature is configured by:
 
-- Your Material MkDocs [extra.social]((https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links)) 
+- Your Material MkDocs [extra.social](https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links) 
 section to generate the social links.
 - The `author` and `author_image` options from the new [configuration section](#configuration) under `extra.blog`.
 
 ### Configuring A Blog List
 
-- After following the [quickstart](#quick-start),
+- After following the [quickstart](#setup),
 add this template metadata to any page that you want to display a list of blog posts.
 
 ```markdown
@@ -192,7 +158,7 @@ Add any markdown content here, the blog list will be displayed below it.
 
 ### Configuring A Blog Post
 
-- After following the [quickstart](#quick-start), 
+- After following the [quickstart](#setup), 
  add this template metadata to the page that you want to become a blog post.
 - Any content in your blog post above the special `<p hidden>#more</p>` tag will be shown in the preview.
     - You can manually place this tag anywhere within your blog post. 
