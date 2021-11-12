@@ -58,11 +58,8 @@ All the pages under `/blog` are `blog_post.html` templates!
 2. Setup Dependencies
 
     ```shell
-    # Install Poetry
-    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
-    # Install Dependencies
-    poetry shell
-    poetry install
+    # recommended to use a venv.
+    pip install -r requirements.txt
     ```
 
 3. Add a new blog post anywhere under the `/blog` directory and append the [required metadata](#configuring-a-blog-post).
