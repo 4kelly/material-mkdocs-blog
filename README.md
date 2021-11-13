@@ -1,4 +1,6 @@
-# How to blog with [Material MkDocs](https://squidfunk.github.io/mkdocs-material/).
+# How to blog with [Material MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
+## [Demo](https://material-mkdocs-blog.4kelly.com/) | [Instructions](https://material-mkdocs-blog.4kelly.com/setup/)
 
 [MkDocs](https://www.mkdocs.org) is a static site generator. 
 [Material MkDocs](https://squidfunk.github.io/mkdocs-material/) is a theme for MkDocs.
@@ -10,6 +12,4 @@ MkDocs has no built-in support for blogging, but it is extensible enough to easi
 
 🚀 Standardize the look of each blog post with configurable metadata. Checkout a post [blog](/blog/subtopic/boring_post)! 
 
-
-## [Demo](https://material-mkdocs-blog.4kelly.com/) | [Instructions](https://material-mkdocs-blog.4kelly.com/setup/)
-
+For updates or feature requests, follow `@4kelly_` [Twitter](https://twitter.com/4kelly_).
