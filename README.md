@@ -12,4 +12,6 @@ MkDocs has no built-in support for blogging, but it is extensible enough to easi
 
 🚀 Standardize the look of each blog post with configurable metadata. Checkout a post [blog](/blog/subtopic/boring_post)! 
 
+--- 
+
 For updates or feature requests, follow `@4kelly_` [Twitter](https://twitter.com/4kelly_).
