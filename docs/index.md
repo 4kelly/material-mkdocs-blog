@@ -20,7 +20,7 @@ MkDocs has no built-in support for blogging, but it is extensible enough to easi
 
 --- 
 
-!!! tip "Like the look?"
+!!! note "Like the look?"
 
     - Credit for the inspiration and styling should be attributed to `@squidfunk` [:fontawesome-brands-twitter: Twitter](https://twitter.com/squidfunk).
     - For updates or feature requests, follow `@4kelly_` [:fontawesome-brands-twitter: Twitter](https://twitter.com/4kelly_).

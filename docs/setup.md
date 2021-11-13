@@ -1,10 +1,10 @@
 ---
-title: How to create a blog with Material MkDocs.
+title: How to create a blog with Material MkDocs
 description: >
     Step-by-step guide to integrating the Material MkDocs blogging functionality into your own website.
 ---
 
-!!! info "Note"
+!!! note "Note"
 
     - This template is designed to be used with Material MkDocs.
 
