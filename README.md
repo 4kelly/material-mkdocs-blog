@@ -8,9 +8,9 @@ MkDocs has no built-in support for blogging, but it is extensible enough to easi
 
 🚀 Annotate your posts with a beautiful signature!
 
-🚀 Turn any page into a list of blog posts. Checkout the [blog](/blog)! 
+🚀 Turn any page into a list of blog posts. Checkout the [blog](https://material-mkdocs-blog.4kelly.com/blog/)! 
 
-🚀 Standardize the look of each blog post with configurable metadata. Checkout a post [blog](/blog/subtopic/boring_post)! 
+🚀 Standardize the look of each blog post with configurable metadata. Checkout a post [blog](https://material-mkdocs-blog.4kelly.com/blog/2021/cooking_post/)! 
 
 --- 
 
