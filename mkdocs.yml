@@ -21,6 +21,7 @@ nav:
 theme:
   custom_dir: overrides
   name: material
+  font: false
   icon:
     repo: fontawesome/brands/git-alt
   features:
