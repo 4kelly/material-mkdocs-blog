@@ -1,6 +1,6 @@
-site_name: Ryan Kelly
-site_description: Writes software and is concerned about technology privacy.
-copyright: Copyright &copy; 2021 <Name>
+site_name: Material MkDocs Blog
+site_description: How to use Material MkDocs as a blog.
+copyright: Copyright &copy; 2021 Ryan Kelly
 
 repo_url: https://github.com/4kelly/material-mkdocs-blog
 edit_uri: edit/main/docs/
@@ -13,17 +13,18 @@ nav:
   - Blog:
       - blog/index.md
       - 2021:
-          - blog/2021/how_to_build_this_blog.md
+          - blog/2021/cooking_post.md
       - Subtopic:
           - blog/subtopic/boring_post.md
           - blog/subtopic/interesting_post.md
-
+  - Setup Instructions: setup.md
 theme:
   custom_dir: overrides
   name: material
   font: false
   icon:
     repo: fontawesome/brands/git-alt
+    logo: material/paperclip
   features:
     - navigation.instant
     - navigation.indexes
@@ -64,6 +65,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

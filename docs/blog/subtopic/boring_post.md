@@ -1,8 +1,7 @@
 ---
 template: blog_post.html
 title: Boring Post
-description: >
-  A list of my quotes, full copyright.
+description: A list of my quotes, full copyright.
 date: 2021-10-01
 ---
 

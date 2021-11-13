@@ -1,8 +1,7 @@
 ---
 template: blog_post.html
 title: Another Interesting Post
-description: >
-  Please enjoy this post.
+description: Please enjoy this post.
 date: 2021-10-02
 ---
 

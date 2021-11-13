@@ -1,12 +1,21 @@
 ---
-template: blog_post.html
-title: Setup Instructions
+title: How to create a blog with Material MkDocs.
 description: >
-  MkDocs is a static site generator tailored for technical documentation.
-  Turns out, MkDocs is also a great blogging tool! 
-  Follow these instructions to add a blog to Material MkDocs.
-date: 2021-10-03
+    Step-by-step guide to integrating the Material MkDocs blogging functionality into your own website.
 ---
+
+!!! info "Note"
+
+    - This template is designed to be used with Material MkDocs.
+
+    - These instructions assume some familiarity with [MkDocs](https://www.mkdocs.org) & 
+    [Material MkDocs](https://squidfunk.github.io/mkdocs-material/).
+
+    - There are other blog plugins for MkDocs probably more useful than this.
+    
+        - [Mkdocs Blogging Plugin](https://pypi.org/project/mkdocs-blogging-plugin/)
+        - [Mkdocs Blog Plugin](https://pypi.org/project/mkdocs-blog-plugin/)
+        - [Mkdocs RSS Plugin](https://pypi.org/project/mkdocs-rss-plugin/)
 
 ## Setup
 
