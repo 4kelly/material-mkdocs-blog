@@ -3,7 +3,6 @@ site_description: How to use Material MkDocs as a blog.
 copyright: Copyright &copy; 2021 Ryan Kelly
 
 repo_url: https://github.com/4kelly/material-mkdocs-blog
-edit_uri: edit/main/docs/
 
 extra_css:
   - stylesheets/extra.css
@@ -22,9 +21,6 @@ theme:
   custom_dir: overrides
   name: material
   font: false
-  icon:
-    repo: fontawesome/brands/git-alt
-    logo: material/paperclip
   features:
     - navigation.instant
     - navigation.indexes
@@ -66,8 +62,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
