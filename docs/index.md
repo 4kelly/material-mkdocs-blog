@@ -1,53 +1,30 @@
 ---
-title: Home
-description: MkDocs blog. How to use Material MkDocs static site generator as a blog.
+template: blog_list.html
+title: How to use Material MkDocs as a blog
+description: > 
+    MkDocs is a static site generator. Material MkDocs is a theme for MkDocs.
+    MkDocs has no built-in support for blogging, but it is extensible enough to easily add your own.
 ---
 
-# :wave: **I'm Ryan Kelly**. I'm a software developer, privacy advocate, and father of two.
+# How to blog with [Material MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
----
+[MkDocs](https://www.mkdocs.org) is a static site generator. 
+[Material MkDocs](https://squidfunk.github.io/mkdocs-material/) is a theme for MkDocs.
+MkDocs has no built-in support for blogging, but it is extensible enough to easily add your own.
 
-How to use [Material MkDocs](https://squidfunk.github.io/mkdocs-material/) static site generator as a blog.
+:rocket: Annotate your posts with a beautiful signature!
 
-Credit for the inspiration and styling should be attributed to the author of [Material MkDocs](https://squidfunk.github.io/mkdocs-material/) 
-`@squidfunk` [:fontawesome-brands-twitter: Twitter](https://twitter.com/squidfunk), 
-I just packaged it up into something easier to use.
+:rocket: Turn any page into a list of blog posts. Checkout the [blog](/blog)! 
 
-!!! info "Note"
+:rocket: Standardize the look of each blog post with configurable metadata. Checkout a post [blog](/blog/subtopic/boring_post)! 
 
-    - This template is designed to be used with Material MkDocs.
+--- 
 
-    - These instructions assume some familiarity with [MkDocs](https://www.mkdocs.org) & 
-    [Material MkDocs](https://squidfunk.github.io/mkdocs-material/).
+!!! tip "Like the look?"
 
-    - There are other blog plugins for MkDocs probably more useful than this.
-    
-        - [Mkdocs Blogging Plugin](https://pypi.org/project/mkdocs-blogging-plugin/)
-        - [Mkdocs Blog Plugin](https://pypi.org/project/mkdocs-blog-plugin/)
-        - [Mkdocs RSS Plugin](https://pypi.org/project/mkdocs-rss-plugin/)
-
-
-## Features
-
-#### Blog Signature
-
-Annotate your posts with a beautiful signature!
-
-![Blogging Signature](/img/signature.png){ lazy=true }
-
-#### Blog List Template
-
-Turn any page into a list of blog posts. Checkout the [blog](/blog)! 
-
-#### Blog Post Template
-
-Standardize the look of each blog post with configurable metadata. Checkout a post [blog](/blog/subtopic/boring_post)! 
+    - Credit for the inspiration and styling should be attributed to `@squidfunk` [:fontawesome-brands-twitter: Twitter](https://twitter.com/squidfunk).
+    - For updates or feature requests, follow `@4kelly_` [:fontawesome-brands-twitter: Twitter](https://twitter.com/4kelly_).
 
 ---
 
-## [Setup Instructions](/blog/2021/how_to_build_this_blog)
-
----
-
-For updates follow `@4kelly_` on [:fontawesome-brands-twitter: Twitter](https://twitter.com/4kelly_).
-
+# ^^Latest Posts^^
