@@ -10,6 +10,8 @@ if there is demand.
 
 🚀 Annotate your posts with a beautiful signature!
 
+![Example Signature](docs/img/signature.png)
+
 🚀 Turn any page into a list of blog posts. Checkout the [blog](https://material-mkdocs-blog.4kelly.com/blog/)! 
 
 🚀 Standardize the look of each blog post with configurable metadata. Checkout a post [blog](https://material-mkdocs-blog.4kelly.com/blog/2021/cooking_post/)! 
