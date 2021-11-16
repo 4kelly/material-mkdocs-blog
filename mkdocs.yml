@@ -12,9 +12,9 @@ nav:
   - Blog:
       - blog/index.md
       - 2021:
+          - blog/2021/core_web_vitals.md
           - blog/2021/cooking_post.md
       - Subtopic:
-          - blog/subtopic/boring_post.md
           - blog/subtopic/interesting_post.md
   - Setup Instructions: setup.md
 theme:
