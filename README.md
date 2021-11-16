@@ -5,6 +5,8 @@
 [MkDocs](https://www.mkdocs.org) is a static site generator. 
 [Material MkDocs](https://squidfunk.github.io/mkdocs-material/) is a theme for MkDocs.
 MkDocs has no built-in support for blogging, but it is extensible enough to easily add your own.
+This repo is the experimental precursor to a MkDocs [plugin](https://www.mkdocs.org/dev-guide/plugins/), 
+if there is demand.
 
 🚀 Annotate your posts with a beautiful signature!
 
