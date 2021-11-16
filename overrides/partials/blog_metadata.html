@@ -20,7 +20,12 @@
       <span class="twemoji">
         {% include ".icons/octicons/clock-24.svg" %}
       </span>
-      {{ page.content | wordcount // config.extra.blog.words_read_per_minute|default(400, true) }} min read
+      <!--Min reading time is 1 minute-->
+      {% set read_time = page.content | wordcount // config.extra.blog.words_read_per_minute|default(300, true) %}
+      {% if read_time == 0 %}
+        {% set read_time = 1 %}
+      {% endif %}
+      {{ read_time }} min read
     </span>
   </p>
 </aside>
