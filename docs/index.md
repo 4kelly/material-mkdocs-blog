@@ -29,4 +29,4 @@ if there is demand.
 
 ---
 
-# ^^Latest Posts^^
+## ^^Latest Posts^^
